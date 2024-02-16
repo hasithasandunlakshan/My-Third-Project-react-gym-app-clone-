@@ -1,0 +1,106 @@
+.main{
+    background-image: url(../Images/banner.png) ;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.main::before{
+    position: absolute;
+    content: "";
+    background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.new{color:aliceblue;
+    justify-content: center;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+  
+    
+
+
+}
+.secondline{
+    
+    align-items: center;
+    display: flex;
+    font-size: 100px;
+    left: 50%;
+	top: 55%;
+    
+    margin: 0;
+ 
+    
+}
+.ff{
+    color: #FF1414;
+    margin: 15px;
+}
+.h1 .h2{
+    margin: 0;
+}
+.def{
+    margin: 5px;
+}
+
+    
+
+.btn-join {
+    position: relative;
+    background-color: #f81515;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn-join:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding: 9px;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.6s
+  }
+  
+  .btn-join:active:after {
+    padding: 10px;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .btn-join:active{
+    transform: translateY(4px);
+    transition: 0s;
+    background-color: #FF1414;
+  }
+

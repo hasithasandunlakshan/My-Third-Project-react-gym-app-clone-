@@ -1,0 +1,55 @@
+.features{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 18, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+   
+}
+.features h1{
+
+    font-size: 70px;
+    font-weight: 900;
+    padding: 100px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+    
+}
+.features img{
+    width: 100px;
+    height: 100px;
+}
+.fea-items{
+    background-color: rgb(55, 57, 57);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    height: 105%;
+
+    margin-bottom: 50px;
+
+    
+    
+}
+.features p{
+    text-align: center;
+}
+.fea-items:hover{
+    transform: translateY(-10px);
+    
+   
+    background-color: black;
+    transition-duration: 0.5s;
+}
