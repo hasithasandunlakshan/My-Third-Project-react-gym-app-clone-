@@ -28,7 +28,7 @@ export default function Navbar() {
           <div className='Mob-Menu'>
             
             <button className="Menu-icon" onClick={handleMenuClick}>
-              {showMenu ? <FaTimes /> : <FaBars />} {/* Using menu bar and close icons */}
+              {showMenu ? <FaTimes className='icon' /> : <FaBars className='icon' />} {/* Using menu bar and close icons */}
             </button>
             <div className={showMenu ? 'ph' : 'hh'}>
               <Link className="Menu-items" to='main' spy={true} smooth={true} offset={-10} duration={500}>HEADER</Link>

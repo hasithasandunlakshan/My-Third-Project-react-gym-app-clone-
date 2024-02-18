@@ -42,7 +42,7 @@ export default function Header() {
             > FITNESS</motion.span> WITH YOU</motion.h1>
             
         
-        <motion.h2
+        <motion.h2 className='h2line'
         initial={{ scale: 0 }}
         animate={{  scale: 0.8 }}
         

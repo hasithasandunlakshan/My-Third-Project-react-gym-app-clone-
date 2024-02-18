@@ -104,11 +104,19 @@
     background-color: #FF1414;
   }
 
-  @media screen and (max-width: 700px) {
-    .h1{
-        font-size: 50%;
+  @media screen and (max-width: 900px) {
+    .secondline{
+    
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 50px;
+        left: 50%;
+        top: 55%;
+        
+        margin: 0;}
+        .h2line{
+            font-size: 20px;
+        }
+    
     }
-    .first  .secondline{
-        font-size: 10px;
-    }
-  }
