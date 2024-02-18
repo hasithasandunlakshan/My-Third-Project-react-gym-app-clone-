@@ -3,6 +3,7 @@ import React from 'react'
 import { delay,motion } from 'framer-motion'
 import "../App.css"
 import LocomotiveScroll from 'locomotive-scroll'
+
 export default function Header() {
 
   return (

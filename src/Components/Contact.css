@@ -12,7 +12,7 @@
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -20,7 +20,7 @@ input[type=text], select, textarea {
     margin-top: 0px;
     margin-bottom: 16px;
    
-    width: 20%;
+    
   }
   
   input[type=submit] {
@@ -30,7 +30,7 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 20%;
+    width: 40%;
   }
   
   input[type=submit]:hover {
@@ -48,4 +48,7 @@ input[type=text], select, textarea {
 .head{
     color: white;
     font-size: 45px;
+}
+@media screen and (max-width: 700px) {
+
 }

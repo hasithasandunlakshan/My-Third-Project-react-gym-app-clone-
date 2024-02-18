@@ -104,3 +104,11 @@
     background-color: #FF1414;
   }
 
+  @media screen and (max-width: 700px) {
+    .h1{
+        font-size: 50%;
+    }
+    .first  .secondline{
+        font-size: 10px;
+    }
+  }

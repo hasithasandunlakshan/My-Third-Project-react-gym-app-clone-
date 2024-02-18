@@ -3,7 +3,7 @@ import "./Contact.css"
 
 export default function Contact() {
   return (
-    <div className='con'>
+    <div className='con' id='cons'>
       <h3 className='head'>Contact Form</h3>
       
       <input type="text" id="fname" name="firstname" placeholder="Your name.." />

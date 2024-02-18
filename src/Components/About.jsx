@@ -11,7 +11,7 @@ export default function About() {
         </div>
         <div data-scroll data-scroll-speed="0.1" className="descriptin">
             <h1 className="title">Learn About <br />Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum impedit debitis. Et molestias nam nemo aliquid quia? Consequuntur magnam, consequatur vitae nostrum laboriosam esse distinctio non at ab excepturi.</p>
+            <p className='pp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum impedit debitis. Et molestias nam nemo aliquid quia? Consequuntur magnam, consequatur vitae nostrum laboriosam esse distinctio non at ab excepturi.</p>
             <button className='btn-join'>Read more</button>
         </div>
 

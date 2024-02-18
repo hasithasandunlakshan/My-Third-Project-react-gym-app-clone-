@@ -7,7 +7,7 @@ import About from './About'
 import Contact from './Contact'
 import { motion,useScroll } from "framer-motion";
 import { useEffect } from 'react'
-import { BrowserRouter, Route, Router} from 'react-router-dom/cjs/react-router-dom.min'
+
 
 export default function () {
     useEffect(() => {
@@ -21,6 +21,7 @@ export default function () {
     
     <Navbar />
 
+
     <Header/>
     <Features/>
     <Offer/>
@@ -29,6 +30,8 @@ export default function () {
 
    
     <Contact/>
+  
+    
   </motion.div>
   )
 }
