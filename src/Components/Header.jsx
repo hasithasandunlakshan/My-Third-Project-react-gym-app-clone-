@@ -26,7 +26,7 @@ export default function Header() {
             <motion.h1 className='first  secondline'
                      initial={{ scale: 0 }}
                     
-                     animate={{scale:1}}
+                     animate={{scale:1,scale:0.8}}
                      transition={{
                       type: "spring",
                       stiffness: 50,
@@ -44,7 +44,7 @@ export default function Header() {
         
         <motion.h2 className='h2line'
         initial={{ scale: 0 }}
-        animate={{  scale: 0.8 }}
+        animate={{  scale: 0.5 }}
         
         transition={{
           type: "spring",
